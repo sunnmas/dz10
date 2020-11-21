@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private static final char SUBTRACTION = '-';
     private static final char MULTIPLICATION = '*';
     private char CURRENT_ACTION = ' ';
-    private String op1 = ""; boolean op1_undefined = false;
+    private String op1 = "";
     private String op2 = "";
     private Pattern digit_pattern = Pattern.compile("[0-9\\.]");
     private DecimalFormat decimalFormat = new DecimalFormat("#.###");;
