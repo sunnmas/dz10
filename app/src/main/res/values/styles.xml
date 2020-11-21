@@ -7,5 +7,16 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="ButtonAppearance">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">#A8BCDC</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">#062250</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">4dp</item>
 
+    </style>
 </resources>
